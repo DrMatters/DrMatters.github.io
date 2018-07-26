@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>BMSTU | Scopus Science Map | Q1 and Q2 Articles Only</title>
+
+  <script type="text/javascript" src="./BMSTU _ Scopus Science Map_files/vis.js"></script>
+  <link type="text/css" rel="stylesheet" href="./BMSTU _ Scopus Science Map_files/vis-network.min.css">
+
+  <script src="./BMSTU _ Scopus Science Map_files/relations_data.js"></script>
+
+  <style type="text/css">
+    #mynetwork {
+      width: 800px;
+      height: 800px;
+      border: 1px solid lightgray;
+    }
+  </style>
+  
+</head>
+
+<body>
+
+<h2>BMSTU | Scopus Science Map | Q1 and Q2 Articles Only</h2>
+<a href="../all_articles/BMSTU _ Scopus Science Map.html">All Articles</a> | <a href="../q1_articles_only/BMSTU _ Scopus Science Map.html">Q1 Articles Only</a> | Q1 and Q2 Articles Only | <a href="../q1_q2_q3_articles_only/BMSTU _ Scopus Science Map.html">Q1, Q2 and Q3 Articles Only</a>
+
+<div id="mynetwork"><div class="vis-network" tabindex="900" style="position: relative; overflow: hidden; touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 100%; height: 100%;"><canvas width="800" height="800" style="position: relative; touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 100%; height: 100%;"></canvas><div class="vis-tooltip" style="left: 0px; top: 0px; visibility: hidden;">Публикаций: 9</div></div></div>
+
+<script type="text/javascript">
+  var network;
+
+
+  function redrawAll() {
+
+    // create a network
+    var container = document.getElementById('mynetwork');
+    var data = {
+      nodes: nodes,
+      edges: edges
+    };
+    var options = {
+      physics: false,
+      nodes: {
+        shape: 'dot',
+        scaling: {
+
+          label: {
+            min: 40,
+            max: 300
+          },
+
+          min: 20,
+          max: 640
+        },
+        font: {
+          size: 12,
+          face: 'Tahoma'
+        },
+      },
+      edges: {
+      	scaling: {
+      		min: 5,
+      		max: 100
+      	},
+        color: {inherit: 'from'},
+        smooth: {
+          type: 'continuous'
+        }
+      },
+      interaction: {
+        tooltipDelay: 200,
+        hideEdgesOnDrag: true
+      },
+      layout: {
+      	improvedLayout: true
+      }
+    };
+
+    // Note: data is coming from ./datasources/WorldCup2014.js
+    network = new vis.Network(container, data, options);
+  }
+
+  redrawAll()
+</script>
+
+
+</body></html>
