@@ -31,7 +31,11 @@ const options = {
             face: 'Tahoma'
         },
     },
-    edges: false,
+    edges: {
+        scaling: {
+            min: 5,
+            max: 100
+        },
         color: {
             inherit: 'from'
         },
