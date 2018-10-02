@@ -62,7 +62,7 @@ $('.js-example-basic-single').select2({
 });
 
 $('.js-example-basic-single').on('select2:select', e => {
-    network.focus(e.params.data.id, {
+        document.network.focus(e.params.data.id, {
         scale: 0.25,
     });
 });
