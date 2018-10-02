@@ -23,7 +23,7 @@ const options = {
                 max: 300
             },
 
-            min: 200,
+            min: 150,
             max: 440
         },
         font: {
