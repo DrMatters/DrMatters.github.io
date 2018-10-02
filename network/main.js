@@ -19,11 +19,11 @@ const options = {
         scaling: {
 
             label: {
-                min: 40,
+                min: 50,
                 max: 300
             },
 
-            min: 20,
+            min: 100,
             max: 440
         },
         font: {
