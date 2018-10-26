@@ -5,8 +5,14 @@ const data = {
     edges: edges
 };
 const options = {
-    physics: false,
-
+    physics: {
+        stabilization: false,
+        barnesHut: {
+            gravitationalConstant: -80000,
+            springConstant: 0.001,
+            springLength: 200
+        }
+    },
     nodes: {
         shape: 'dot',
         scaling: {
