@@ -12,7 +12,7 @@ const options = {
             springConstant: 0.001,
             springLength: 200
         },
-        timestep: 5
+        timestep: 2
     },
     nodes: {
         shape: 'dot',
