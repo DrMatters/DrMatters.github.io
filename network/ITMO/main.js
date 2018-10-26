@@ -11,7 +11,8 @@ const options = {
             gravitationalConstant: -80000,
             springConstant: 0.001,
             springLength: 200
-        }
+        },
+        timestep: 5
     },
     nodes: {
         shape: 'dot',
