@@ -28,7 +28,7 @@
  	- [Certificate](https://www.coursera.org/account/accomplishments/certificate/DKDYQVN3SSLD)
   - **mlcourse.ai. 2018 ods.ai**
   	- Открытый курс по машинному обучению в московском офисе mail.ru
- 	- [Course site](https://mlcourse.ai/)
+ 	- [Course site](https://mlcourse.ai/) 
 
 ## Языки
  - **English** - Pre-Intermediate
