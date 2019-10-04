@@ -1,45 +1,40 @@
 # Сёмин Кирилл
 ## Контакты
 Москва, Россия
- - [**Email**](mailto:qseminq@gmail.com)
- - [**Github**](https://github.com/DrMatters)
- - [**LinkedIn**](https://www.linkedin.com/in/kirill-semin-826394141/)
+ - qseminq@gmail.com
+ - linkedin.com/in/DrMatters
+
+## Профиль
+TODO:
+Self-driven and motivated Computer Science student adept at testing software products, developing and implementing new software platforms, and providing IT support and assistance to colleagues. Possessing great analytical skills, ability to work in team environments, and strong attention to detail, Shao is looking for any IT-related internship with a forward-moving company.
+
+## Опыт работы
+TODO:
+ - Software Intern || 6/2019 - 09/2019 || Yandex N.V.
+
+   TODO: Some description
+
+## Проекты
+TODO:
+- deep moderator
+- hyperoptsearchcv
 
 ## Ключевые навыки
- - С, C++
- - SQL
- - Python (Pandas, Django)
- - TensorFlow (базовый)
- - Matlab
- - Java (базовый)
+TODO:
+ - Python, Java
+ - Machine Learning, NLP
 
 ## Образование
- - **Бакалавриат. 2015 – 2019 МГТУ им. Н.Э. Баумана**
- 	- Очная форма обучения. Кафедра "Информационные системы и телекоммуникации" (ИУ3).
- - **Курс по C/C++. 2016 Технопарк**
- 	- Очный семестровый курс по основам разработки на C/C++.
- 	- Сертификат Технопарк@Mail.ru
+ - **2015 – 2019 МГТУ им. Н.Э. Баумана. Москва, Россия.**
+ 	- Бакалавр в специальности Информационные системы и технологии.
  - **Deep Learning Specialization (deeplearning.ai). 2018 Coursera**
- 	- [Certificate](https://www.coursera.org/account/accomplishments/specialization/V5P6NWX4CR95)
- 	- Завершено за 1 месяц
+ 	- Сертификат: bit.ly/32ZCS9N
   - **Machine Learning (Andrew Ng). 2018 Coursera**
- 	- [Certificate](https://www.coursera.org/account/accomplishments/certificate/W2FV6BT5XCPF)
-  - **Introduction to Data Science in Python. 2018 Coursera**
- 	- [Certificate](https://www.coursera.org/account/accomplishments/certificate/DKDYQVN3SSLD)
-  - **mlcourse.ai. 2018 ods.ai**
-  	- Открытый курс по машинному обучению в московском офисе mail.ru
- 	- [Course site](https://mlcourse.ai/) 
+ 	- Сертификат: bit.ly/336RR1x
 
 ## Языки
- - **English** - Pre-Intermediate
+ - **English**
+ - **Русский**
 
 ## Разговорные навыки
 - Выступление на университетской конференции по английскому языку.
-
-## Development experience
- - **Граф публикаций авторов университетов**
-	- [Result](https://drmatters.github.io/network/all_articles/BMSTU%20_%20Scopus%20Science%20Map.html)
-	- [Data Processing](https://github.com/DrMatters/BmstuScienceMap)
-	- Pandas, Data Processing, Vis.js
- - **Участие в проекте 3D-Packer**
-	- C++ приложение, для решения задачи об упаковке в контейнеры (3D bin packing) на основе Genetic Algorithm. serving; C++, Qt)
