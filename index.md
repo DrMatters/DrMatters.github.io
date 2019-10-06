@@ -5,24 +5,29 @@
  - linkedin.com/in/DrMatters
 
 ## Профиль
-TODO:
 Self-driven and motivated Computer Science student adept at testing software products, developing and implementing new software platforms, and providing IT support and assistance to colleagues. Possessing great analytical skills, ability to work in team environments, and strong attention to detail, Shao is looking for any IT-related internship with a forward-moving company.
 
 ## Опыт работы
-TODO:
- - Software Intern || 6/2019 - 09/2019 || Yandex N.V.
+ - 6/2019 - 09/2019 - **Software Intern**
+    
+	Yandex N.V.
 
-   TODO: Some description
+   - Занимался автоматизацией тестирования, в частности, функционального тестирования, и расширением его инфраструктуры.
+   - Работал над повышением надежности продукта с помощью разнесения ключевых компонент в отдельные сервисы.
+   - TODO: participated in weekly team meetings and conducted reports on the projects' progress.
+   
 
 ## Проекты
 TODO:
-- deep moderator
+- DeepModerator:
+   - 
 - hyperoptsearchcv
 
 ## Ключевые навыки
 TODO:
  - Python, Java
- - Machine Learning, NLP
+ - Machine Learning - (алгоритмы, которые применял), NLP (тоже)
+ - Google Cloud Platform
 
 ## Образование
  - **2015 – 2019 МГТУ им. Н.Э. Баумана. Москва, Россия.**
@@ -35,6 +40,3 @@ TODO:
 ## Языки
  - **English**
  - **Русский**
-
-## Разговорные навыки
-- Выступление на университетской конференции по английскому языку.
