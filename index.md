@@ -5,23 +5,26 @@
  - linkedin.com/in/DrMatters
 
 ## Профиль
+TODO:
 Self-driven and motivated Computer Science student adept at testing software products, developing and implementing new software platforms, and providing IT support and assistance to colleagues. Possessing great analytical skills, ability to work in team environments, and strong attention to detail, Shao is looking for any IT-related internship with a forward-moving company.
 
 ## Опыт работы
- - 6/2019 - 09/2019 - **Software Intern**
-    
-	Yandex N.V.
-
+ - 6/2019 - 09/2019 | **Software Intern** | Yandex N.V.
    - Занимался автоматизацией тестирования, в частности, функционального тестирования, и расширением его инфраструктуры.
    - Работал над повышением надежности продукта с помощью разнесения ключевых компонент в отдельные сервисы.
    - TODO: participated in weekly team meetings and conducted reports on the projects' progress.
-   
 
 ## Проекты
-TODO:
 - DeepModerator:
-   - 
-- hyperoptsearchcv
+   - Web-based app to help commutity administrators reduce toxicity in comments sections of VK.com (social network).
+   - Based on active machine learning (ML), can work with human-in-the-loop. Collects data automatically from site (VK) and through web interface for moderators.
+   - Automatically removes comments which is classified as toxic by ML model with selected level of certainty. Also, can mark toxic comments and show them to moderators in web interface in order of toxicity.
+   - Written on Python, using Google Cloud Services. Multiple ML models performance tested.
+- HyperoptSearchCV
+   - Utility to use Hyperopt with scikit-learn pipelines. Has interface similar to GridSearchCV of scikit-learn.
+   - GitHub repository: github.com/DrMatters/hyperoptsearchcv
+
+
 
 ## Ключевые навыки
 TODO:
