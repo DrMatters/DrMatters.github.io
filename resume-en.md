@@ -1,4 +1,4 @@
-# Сёмин Кирилл (ru | [en](https://DrMatters.github.io/resume-en.md))
+# Semin Kirill ([ru](https://DrMatters.github.io) | en)
 ## Контакты
 Москва, Россия
  - qseminq@gmail.com
