@@ -1,11 +1,10 @@
-# Semin Kirill ([ru](https://DrMatters.github.io/resume-ru.md) | en)
+# Semin Kirill ([ru](https://DrMatters.github.io/resume-ru) | en)
 ## Контакты
 Москва, Россия
  - qseminq@gmail.com
  - linkedin.com/in/DrMatters
 
 ## Профиль
-TODO:
 Self-driven and motivated Computer Science student adept at testing software products, developing and implementing new software platforms, and providing IT support and assistance to colleagues. Possessing great analytical skills, ability to work in team environments, and strong attention to detail, Shao is looking for any IT-related internship with a forward-moving company.
 
 ## Опыт работы
@@ -27,7 +26,7 @@ TODO: ru language
 
 ## Ключевые навыки
  - Python, Java
- - Machine Learning - Logistic Regression, Ensemble-based models
+ - Machine Learning - Logistic Regression, Ensemble methods
  - NLP - RNN, Embeddings, Attention
  - Google Cloud Platform
 

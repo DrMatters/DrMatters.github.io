@@ -5,7 +5,6 @@
  - linkedin.com/in/DrMatters
 
 ## Профиль
-TODO:
 Self-driven and motivated Computer Science student adept at testing software products, developing and implementing new software platforms, and providing IT support and assistance to colleagues. Possessing great analytical skills, ability to work in team environments, and strong attention to detail, Shao is looking for any IT-related internship with a forward-moving company.
 
 ## Опыт работы
@@ -15,19 +14,18 @@ Self-driven and motivated Computer Science student adept at testing software pro
    - Учавствовал в еженедельных собраниях команды и докладывал о прогрессе по задачам.
 
 ## Проекты
-TODO: ru language
 - DeepModerator:
-   - Web-based app to help commutity administrators reduce toxicity in comments sections of VK.com (social network).
-   - Based on active machine learning (ML), can work with human-in-the-loop. Collects data automatically from site (VK) and through web interface for moderators.
-   - Automatically removes comments which is classified as toxic by ML model with selected level of certainty. Also, can mark toxic comments and show them to moderators in web interface in order of toxicity.
-   - Written on Python, using Google Cloud Platform. Multiple ML models performance tested.
+   - Приложение для помощи администрации сообществ в снижениии токсичности комментариев. Работает с ВКонткате.
+   - Работает на активном машинном обучении, с human-in-the-loop. Может собирать данные автоматически с API VK, или с использованием веб-интерфейса для модераторов.
+   - Может в реальном времени удалять комментарии распознанные как содержащие речевую агрессию с выбранным уровнем уверенности. Также, может формировать списки комментариев, вероятно требующих модерации, и отображать их в веб интерфейсе модератора с возможностью быстрого взаимодействия.
+   - Написано на Python, с использованием Google Cloud Platform. Протестировано качество работы нескольких классификаторов по метрике ROC-AUC.
 - HyperoptSearchCV
-   - Utility to use Hyperopt with scikit-learn pipelines. Has interface similar to GridSearchCV of scikit-learn.
-   - GitHub repository: github.com/DrMatters/hyperoptsearchcv
+   - Python-модуль для применения Hyperopt с scikit-learn пайплайнами. Предоставляет интерфейс похожий на GridSearchCV (scikit-learn).
+   - GitHub: github.com/DrMatters/hyperoptsearchcv
 
 ## Ключевые навыки
  - Python, Java
- - Machine Learning - Logistic Regression, Ensemble-based models
+ - Machine Learning - Logistic Regression, Ensemble methods
  - NLP - RNN, Embeddings, Attention
  - Google Cloud Platform
 
