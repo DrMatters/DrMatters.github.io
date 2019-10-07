@@ -30,8 +30,10 @@ Self-driven and motivated Computer Science student adept at testing software pro
  - Google Cloud Platform
 
 ## Образование
- - **2015 – 2019 МГТУ им. Н.Э. Баумана. Москва, Россия.**
- 	- Бакалавр в специальности Информационные системы и технологии.
+ - **2015 – 2019 | МГТУ им. Н.Э. Баумана. Москва, Россия.**
+ 	- Бакалавр специальности Информационные системы и технологии.
+ - **2019 - текущий момент | МГТУ им. Н.Э. Баумана. Москва, Россия.**
+   - Магистр специальности Информационные системы и технологии
  - **Deep Learning Specialization (deeplearning.ai). 2018 Coursera**
  	- Сертификат: bit.ly/32ZCS9N
   - **Machine Learning (Andrew Ng). 2018 Coursera**

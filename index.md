@@ -33,7 +33,9 @@ TODO: translate to en
 
 ## Education
  - **2015 – 2019 Bauman Moscow State Technical University. Moscow, Russia.**
- 	- Bachelor in Information Systems and Technologies.
+ 	- Bachelor of Information Systems and Technologies.
+ - **2015 – present Bauman Moscow State Technical University. Moscow, Russia.**
+ 	- MSc Information Systems and Technologies.
  - **Deep Learning Specialization (deeplearning.ai). 2018 Coursera**
  	- Certificate: bit.ly/32ZCS9N
   - **Machine Learning (Andrew Ng). 2018 Coursera**
