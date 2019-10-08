@@ -1,0 +1,113 @@
+\documentclass{article}
+							
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{amsmath,amsfonts,amsthm}     % Math packages
+\usepackage{graphicx}                    % Enable pdflatex
+\usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
+\usepackage{xcolor}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage[margin=0.7in]{geometry}
+	\textheight=700px                    % Saving trees ;-)
+\usepackage{url}
+
+\frenchspacing              % Better looking spacings after periods
+\pagestyle{empty}           % No pagenumbers/headers/footers
+
+%%% Custom sectioning (sectsty package)
+%%% ------------------------------------------------------------
+\usepackage{sectsty}
+
+\sectionfont{%			            % Change font of \section command
+	\usefont{OT1}{phv}{b}{n}%		% bch-b-n: CharterBT-Bold font
+	\sectionrule{0pt}{0pt}{-5pt}{3pt}}
+
+
+\newcommand{\MyName}[1]{ % Name
+		\noindent \Huge \usefont{OT1}{cmr}{b}{n} #1 \hfill 
+		\par \normalsize \normalfont}
+
+\newcommand{\MyLocation}[1]{ % Name
+		\noindent \usefont{OT1}{cmr}{b}{n} #1 \hfill 
+		\par \normalsize \normalfont}
+
+\newcommand{\MyContact}[1]{ % Slogan (optional)
+		\large \usefont{OT1}{cmr}{m}{n} #1
+		\par \normalsize \normalfont}
+
+\newcommand{\NewPart}[1]{\section*{{\color{gray}\uppercase{#1}}}}
+
+\newcommand{\SkillsEntry}[2]{\textbf{#1}: #2}  
+		
+\newcommand{\ExperienceEntry}[4]{
+		\noindent \textbf{#1} \hfill  
+		\hfill #2 \par  % Duration
+		\noindent \textit{#3} \par        % School
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+
+\begin{document}
+
+\begin{multicols}{2}
+\MyName{Kirill Syomin}
+\MyLocation{Moscow, Russia}
+\columnbreak
+\MyContact{\faEnvelope : qseminq@gmail.com}
+\MyContact{\faGithub : \href{https://www.github.com/DrMatters}{github.com/DrMatters}}
+\MyContact{\faLinkedin : \href{https://www.linkedin.com/in/drmatters}{linkedin.com/in/drmatters}}
+\end{multicols}
+
+\NewPart{Qualifications}{}
+
+
+\begin{itemize}
+  \item[]{\SkillsEntry{Programming}{Python, Java, C/C++}}
+  \item[]{\SkillsEntry{Data Science Frameworks}{Scikit-learn, Pytorch, Pandas}}
+\end{itemize}
+
+
+\NewPart{Work experience}{}
+
+\ExperienceEntry
+{Software Developer Intern}
+{Jun 2019-Sep 2019}
+{Yandex N.V. $\vert$ Moscow, Russia}
+{	
+\begin{itemize}
+	\item{Developed an intersection finding algorithm for A/B testing to find and fix statistically dependent experiments}
+	\item{Refactored key data source for recommender system to improve the ability to modify it in A/B testing}
+	\item{Developed functional testing system for one of services of product}
+\end{itemize}
+}
+
+\NewPart{Independent Projects}{}
+
+\ExperienceEntry
+{DeepModerator}
+{2018 - present}
+{Bauman Moscow State Technical University $\vert$ Moscow, Russian Federation}
+{}
+
+\NewPart{Education}{}
+
+\ExperienceEntry
+{Master's degree, Information Systems and Technology}
+{2019 - present}
+{\href{http://bmstu.ru/en}
+{Bauman Moscow State Technical University} $\vert$ Moscow, Russian Federation}
+{}
+
+\ExperienceEntry
+{Bachelor degree, Information Systems and Technology}
+{2015 - 2019}
+{\href{http://bmstu.ru/en}
+{Bauman Moscow State Technical University} $\vert$ Moscow, Russian Federation}
+{}
+
+
+\end{document}
+
+
