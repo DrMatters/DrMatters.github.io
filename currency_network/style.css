@@ -1,0 +1,7 @@
+#search-description {
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    text-shadow: 2px 1px 2px lightgrey;
+}
