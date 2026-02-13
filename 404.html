@@ -1,0 +1,23 @@
+---
+layout: default
+title: Not Found
+permalink: /404.html
+---
+
+<script>
+const redirects = {
+  '/ds':     '/cert/DS.pdf',
+  '/dl':     '/cert/DL.pdf',
+  '/ml':     '/cert/ML.pdf',
+  '/image':  '/cert/Image.pdf',
+  '/entre':  '/cert/Entre.pdf',
+};
+
+const path = window.location.pathname.replace(/\/+$/, '').toLowerCase();
+const target = redirects[path];
+if (target) {
+  window.location.replace(target);
+}
+</script>
+
+Page not found.
